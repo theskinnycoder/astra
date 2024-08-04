@@ -1,0 +1,15 @@
+{
+  "arrowParens": "avoid",
+  "bracketSameLine": false,
+  "endOfLine": "lf",
+  "jsxSingleQuote": true,
+  "singleQuote": true,
+  "singleAttributePerLine": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": true,
+  "semi": false,
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindConfig": "./tailwind.config.ts",
+  "tailwindFunctions": ["clsx", "cva", "cn", "twMerge"]
+}
